@@ -1,0 +1,13 @@
+.containerTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+.tabla{
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+  }

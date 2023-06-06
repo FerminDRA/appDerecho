@@ -1,0 +1,54 @@
+h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 40px;
+
+}
+p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.cuerpo{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 60px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.table-container{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column-left,
+.column-right {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.reload-button{
+    display: inline-block;
+  background-color: #2899ef;
+  color: #fff;
+  border: 1px solid #2899ef;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+}

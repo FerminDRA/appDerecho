@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos para el formulario de búsqueda */
+form {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el campo de entrada de texto de búsqueda */
+.search-input {
+  padding: 8px;
+  width: 430px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+/* Estilos para el botón de búsqueda */
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  order: -1;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1141EC;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%; /* Ajuste del ancho al 100% */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+
+.logo {
+  flex: 1;
+  text-align: left;
+}
+
+.aviso {
+  flex: 3;
+  text-align: center;
+}
+
+.aviso p {
+  margin: 0;
+  font-size: 12px;
+  color: #fff;
+}
+
+.wsapp {
+  flex: 1;
+  text-align: right;
+}
+
+.wsapp p {
+  margin: 0;
+}
+
+.logoIni {
+  max-width: 80px;
+}
+
+.logoWs {
+  max-width: 30px;
+}
+
+.logoEm {
+  max-width: 60px;
+}
+
+.imgDescuento{
+  max-width: 300px;
+}
+
+.col1{
+  width: 300px;
+}
+
+.searchBarContainer {
+  margin-right: 120px;
+  margin-left: 60px;
+}
+
+.componentes{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.titleTransparency{
+  text-align: center;
+}
+
+.subtitlesTransparent h3{
+  text-align: center;
+}
